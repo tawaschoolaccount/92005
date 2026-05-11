@@ -1,6 +1,10 @@
 /* NAVBAR */
-.navbar
-.navbar_items
+.navbar {
+    
+}
+.navbar_items {
+    
+}
 
 /* HERO */
 .hero_section {
@@ -12,22 +16,48 @@
     background-position: center;
 }
 
-.hero-overlay
-.cta
+.hero-overlay {
+    
+}
+.cta {
+    
+}
 
 /* ABOUT */
-.about_section
-.text
-.about_image
+.about_section {
+    
+}
+.text {
+    
+}
+.about_image {
+    
+}
 
 /* LIST */
-.list_section
-.list_header
-.list_cards
-.card
-.card_image
-.card_text
+.list_section {
+    
+}
+.list_header {
+    
+}
+.list_cards {
+    
+}
+.card {
+    
+}
+.card_image {
+    
+}
+.card_text {
+    
+}
 
 /* CTA */
-.cta_section
-.cta_overlay
+.cta_section {
+    
+}
+.cta_overlay {
+    
+}
