@@ -4,6 +4,9 @@
 
 /* HERO */
 .hero_section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     background-image: url("images/HeroBG.jpeg");
     background-size: cover;
     background-position: center;
