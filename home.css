@@ -3,7 +3,12 @@
 .navbar_items
 
 /* HERO */
-.hero_section
+.hero_section {
+    background-image: url("images/HeroBG.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
 .hero-overlay
 .cta
 
