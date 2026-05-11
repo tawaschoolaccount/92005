@@ -1,7 +1,25 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 /* NAVBAR */
 .navbar {
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255, 0.88)
 }
+
 .navbar_items {
     
 }
