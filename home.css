@@ -64,6 +64,11 @@ body {
     
 }
 
+.about_image img {
+    width: 40vw;
+    height: auto;
+}
+
 /* LIST */
 .list_section {
     height: 100vh;
