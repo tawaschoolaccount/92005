@@ -21,7 +21,12 @@ body {
 }
 
 .navbar_items {
-    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
 }
 
 /* HERO */
