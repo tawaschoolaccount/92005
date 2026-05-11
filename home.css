@@ -17,7 +17,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgb(255, 255, 255, 0.88)
+    background: rgb(255, 255, 255, 0.4);
 }
 
 .navbar_items {
@@ -28,22 +28,34 @@ body {
 .hero_section {
     height: 100vh;
     display: flex;
-    justify-content: center;
     background-image: url("images/HeroBG.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .hero-overlay {
-    
+    background-color:#55672ce0;
+    width: 50vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #243E16;
 }
+
+.hero-text {
+    color: white;
+}
+
 .cta {
     
 }
 
 /* ABOUT */
 .about_section {
-    
+    background: #55672c;
+    height: 100vh;
 }
 .text {
     
@@ -54,7 +66,7 @@ body {
 
 /* LIST */
 .list_section {
-    
+    height: 100vh;
 }
 .list_header {
     
@@ -74,7 +86,7 @@ body {
 
 /* CTA */
 .cta_section {
-    
+    height: 50vh;
 }
 .cta_overlay {
     
