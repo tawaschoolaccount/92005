@@ -29,6 +29,27 @@ body {
     margin: 10px;
 }
 
+.custom-shape-divider-top-1778619016 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1778619016 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 185px;
+}
+
+.custom-shape-divider-top-1778619016 .shape-fill {
+    fill: #FFFFFF66;
+}
+
 /* HERO */
 .hero_section {
     height: 100vh;
