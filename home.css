@@ -14,7 +14,7 @@ body {
 /* NAVBAR */
 .navbar {
     position: fixed;
-    height: 38.7px;
+    height: 45px;
     width: 100%;
     top: 0;
     left: 0;
@@ -25,14 +25,24 @@ body {
 .navbar_items {
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
-    margin: 10px;
+    margin-top: 20px;
+    z-index: 100;
+}
+
+.navbar_items a {
+    text-decoration: none;
+    color: black;
+    background: #FFFFFF99;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #55672c;
 }
 
 .custom-shape-divider-top-1778619016 {
     position: relative;
+    margin-top: 6.7px;
     top: 0;
     left: 0;
     width: 100%;
