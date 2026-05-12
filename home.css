@@ -14,6 +14,8 @@ body {
 /* NAVBAR */
 .navbar {
     position: fixed;
+    height: 38.7px;
+    width: 100%;
     top: 0;
     left: 0;
     width: 100%;
@@ -30,7 +32,7 @@ body {
 }
 
 .custom-shape-divider-top-1778619016 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
