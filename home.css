@@ -41,6 +41,10 @@ body {
     border: 3px solid #55672c;
 }
 
+.navbar_items img {
+    width: 240px;
+}
+
 /* SVG */
 
 .custom-shape-divider-top-1778619016 {
