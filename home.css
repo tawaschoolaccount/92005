@@ -158,8 +158,8 @@ body {
     text-align: center;
     padding: 20px;
     width: 30vw;
-    background: #55672c;
-    border: 3px solid #243E16;
+    background: #fff9;
+    border: 1px solid #243E16;
 }
 
 .card_image {
@@ -185,12 +185,14 @@ body {
 .cta_overlay {
     border-radius: 15px;
     text-align: center;
-    background: #55672c;
-    border: 3px solid #243E16;
+    background: #fff9;
+    border: 1px solid #243E16;
     padding: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 80vw;
+    height: 40vh;
+    gap: 16px;
 }
