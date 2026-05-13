@@ -89,7 +89,7 @@ ul {
     background-position: center;
 }
 
-.hero-overlay {
+.hero_overlay {
     background-color:#55672ce0;
     width: 50vw;
     padding: 70px;
@@ -103,9 +103,13 @@ ul {
     margin-left: 40px;
 }
 
-.hero-overlay h1 {
+.hero_overlay h1 {
     margin-bottom: 10px;
     font-size: 48px;
+}
+
+.hero_cta {
+    display: flex;
 }
 
 .cta {
