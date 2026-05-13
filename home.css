@@ -145,6 +145,7 @@ body {
 }
 
 .list_cards {
+    padding: 60px;
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
@@ -152,6 +153,10 @@ body {
 
 .card {
     border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
     width: 30vw;
     background: #55672c;
     border: 3px solid #243E16;
@@ -179,6 +184,7 @@ body {
 
 .cta_overlay {
     border-radius: 15px;
+    text-align: center;
     background: #55672c;
     border: 3px solid #243E16;
     padding: 20px;
