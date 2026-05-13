@@ -81,16 +81,20 @@ body {
 .hero-overlay {
     background-color:#55672ce0;
     width: 50vw;
-    padding: 10px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    border: 5px solid #243E16;
+    border-left: 3px solid #243E16;
+    border-right: 3px solid #243E16;
+    color: #1E261B;
+    margin-left: 40px;
 }
 
-.hero-text {
-    color: white;
+.hero-overlay h1 {
+    margin-bottom: 10px;
+    font-size: 48px;
 }
 
 .cta {
@@ -99,12 +103,20 @@ body {
 
 /* ABOUT */
 .about_section {
+    border-top: 3px solid #243E16;
     background: #55672c;
     height: 100vh;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 .text {
-    
+    color: #1E261B;
+    font-size: 17px;
 }
+
 .about_image {
     
 }
@@ -112,6 +124,8 @@ body {
 .about_image img {
     width: 40vw;
     height: auto;
+    border: 3px solid #243E16;
+    border-radius: 15px;
 }
 
 /* LIST */
