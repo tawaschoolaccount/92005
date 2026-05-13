@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -130,10 +132,12 @@ body {
 
 /* LIST */
 .list_section {
+    color: #1E261B;
     height: 100vh;
     padding: 70px;
     display: flex;
     flex-direction: column;
+    background: linear-gradient( 330deg, #55672e, #ffffff);
 }
 
 .list_header {
@@ -162,6 +166,7 @@ body {
 
 /* CTA */
 .cta_section {
+    color: #1E261B;
     height: 50vh;
     padding: 70px;
     display: flex;
@@ -176,9 +181,10 @@ body {
     border-radius: 15px;
     background: #55672c;
     border: 3px solid #243E16;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 60vw;
 }
