@@ -180,6 +180,7 @@ ul {
     display: flex;
     flex-direction: column;
     background: linear-gradient( 330deg, #55672e, #ffffff);
+    justify-content: space-evenly;
 }
 
 .list_header {
@@ -187,7 +188,6 @@ ul {
 }
 
 .list_cards {
-    padding: 60px;
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
