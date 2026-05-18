@@ -94,7 +94,7 @@ ul {
 .hero_overlay {
     background-color:#55672ce0;
     width: 50vw;
-    padding: 70px;
+    padding: 220px 70px;
     display: flex;
     flex-direction: column;
     align-items: left;
