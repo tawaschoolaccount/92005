@@ -58,6 +58,13 @@ ul {
     border: 3px solid #55672c;
 }
 
+.navbar_items a:hover {
+    background-color: #55672c;
+    color: black;
+    transition: 0.3s ease;
+    scale: 1.05;
+}
+
 /* SVG */
 
 .custom-shape-divider-top-1778619016 {
@@ -129,6 +136,13 @@ ul {
     color: #FFFFFF;
 }
 
+.cta:hover {
+    background-color: #55672c;
+    color: black;
+    transition: 0.3s ease;
+    scale: 1.05;
+}
+
 .cta2 {
     background: #949D8636;
     color: #363636;
@@ -142,6 +156,13 @@ ul {
 .cta2 a {
     text-decoration: none;
     color: #363636;
+}
+
+.cta2:hover {
+    background-color: #d6dacd;
+    color: black;
+    transition: 0.3s ease;
+    scale: 1.05;
 }
 
 /* ABOUT */
