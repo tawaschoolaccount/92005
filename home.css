@@ -256,10 +256,26 @@ ul {
         height: 100vh;
         padding: 210px 50px;
     }
-}
-@media (max-width: 660px) {
+    .navbar img {
+        display: none;
+    }
+    .navbar_items {
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .navbar_items a {  
+        display: flex;
+        font-size: 13px;
+        text-align: center;
+        padding: 10px;
+    }
     .navbar {
-        height: 70.7px;
+        height: 74.7px;
+    }
+}
+@media (max-width: 585px) {
+    .navbar {
+        height: 89.7px;
     }
 }
 
