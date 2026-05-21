@@ -164,6 +164,7 @@ ul {
 
 /* ABOUT */
 .about_section {
+    overflow: hidden;
     border-top: 3px solid #243E16;
     background: #55672c;
     height: 100vh;
@@ -210,6 +211,8 @@ ul {
     margin-top: 70px;
     justify-content: space-evenly;
     gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .card {
@@ -218,9 +221,46 @@ ul {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    width: 30vw;
+    width: 15vw;
     background: #fff9;
+    overflow: hidden;
     border: 1px solid #243E16;
+}
+
+@media (max-width: 900px) {
+    .about_section {
+        height: 150vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 30vw;
+    }
+    .list_section {
+        height: 150vh;
+    }
+    .cta {
+        width: 30vw;
+    }
+    .cta2 {
+        width: 30vw;
+    }
+    .hero_section {
+        overflow: hidden;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .hero_overlay {
+        width: 80%;
+        height: 100vh;
+        padding: 210px 50px;
+    }
+}
+@media (max-width: 660px) {
+    .navbar {
+        height: 70.7px;
+    }
 }
 
 .card_image {
