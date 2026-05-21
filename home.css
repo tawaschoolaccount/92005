@@ -27,8 +27,7 @@ ul {
     width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    background: rgb(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .navbar img {
@@ -45,7 +44,7 @@ ul {
     gap: 80px;
     list-style: none;
     margin-top: 20px;
-    justify-content: right;
+    justify-content: flex-end;
     margin-right: 20px;
 }
 
@@ -145,8 +144,6 @@ ul {
 
 .cta2 {
     background: #949D8636;
-    color: #363636;
-    color: #FFFFFF;
     width: 17vw;
     border-radius: 15px;
     padding: 10px;
@@ -155,7 +152,7 @@ ul {
 
 .cta2 a {
     text-decoration: none;
-    color: #363636;
+    color: #1e261b;
 }
 
 .cta2:hover {
