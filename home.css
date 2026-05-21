@@ -62,7 +62,7 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 /* SVG */
@@ -140,7 +140,7 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .cta2 {
@@ -162,7 +162,7 @@ ul {
     background-color: #d6dacd;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 /* ABOUT */
@@ -302,7 +302,7 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .footer_text {
