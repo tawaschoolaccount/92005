@@ -27,8 +27,7 @@ ul {
     width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    background: rgb(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .navbar img {
@@ -45,7 +44,7 @@ ul {
     gap: 80px;
     list-style: none;
     margin-top: 20px;
-    justify-content: right;
+    justify-content: flex-end;
     margin-right: 20px;
 }
 
@@ -62,7 +61,7 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 /* SVG */
@@ -93,7 +92,7 @@ ul {
 .hero_section {
     height: 100vh;
     display: flex;
-    background-image: url("images/HeroBG.jpeg");
+    background-image: url("images/Page2BG.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -140,13 +139,11 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .cta2 {
     background: #949D8636;
-    color: #363636;
-    color: #FFFFFF;
     width: 17vw;
     border-radius: 15px;
     padding: 10px;
@@ -155,18 +152,19 @@ ul {
 
 .cta2 a {
     text-decoration: none;
-    color: #363636;
+    color: #1e261b;
 }
 
 .cta2:hover {
     background-color: #d6dacd;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 /* ABOUT */
 .about_section {
+    overflow: hidden;
     border-top: 3px solid #243E16;
     background: #55672c;
     height: 100vh;
@@ -196,7 +194,7 @@ ul {
 /* LIST */
 .list_section {
     color: #1E261B;
-    height: 100vh;
+    height: 60vh;
     padding: 70px;
     display: flex;
     flex-direction: column;
@@ -204,26 +202,76 @@ ul {
     justify-content: center;
 }
 
-.list_header h1 {
-    margin-bottom: 20px;
-}
-
 .list_cards {
     display: flex;
-    margin-top: 70px;
     justify-content: space-evenly;
     gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .card {
     border-radius: 15px;
-    align-content: center;
-    justify-content: center;
+    height: 370px;
+    
     text-align: center;
     padding: 20px;
-    width: 30vw;
+    width: 15vw;
     background: #fff9;
+    overflow: hidden;
     border: 1px solid #243E16;
+}
+
+@media (max-width: 900px) {
+    .about_section {
+        height: 150vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 30vw;
+    }
+    .list_section {
+        height: 150vh;
+    }
+    .cta {
+        width: 30vw;
+    }
+    .cta2 {
+        width: 30vw;
+    }
+    .hero_section {
+        overflow: hidden;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+    .hero_overlay {
+        width: 80%;
+        height: 100vh;
+        padding: 210px 50px;
+    }
+    .navbar img {
+        display: none;
+    }
+    .navbar_items {
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .navbar_items a {  
+        display: flex;
+        font-size: 13px;
+        text-align: center;
+        padding: 10px;
+    }
+    .navbar {
+        height: 74.7px;
+    }
+}
+@media (max-width: 585px) {
+    .navbar {
+        height: 89.7px;
+    }
 }
 
 .card_image {
@@ -243,7 +291,7 @@ ul {
     align-items: center;
     background: url("images/FooterBG.jpeg");
     background-size: cover;
-    background-position: center)
+    background-position: center;
 }
 
 .cta_overlay {
@@ -302,7 +350,7 @@ ul {
     background-color: #55672c;
     color: black;
     transition: 0.3s ease;
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .footer_text {
