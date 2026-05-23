@@ -194,7 +194,7 @@ ul {
 /* LIST */
 .list_section {
     color: #1E261B;
-    height: 100vh;
+    height: 60vh;
     padding: 70px;
     display: flex;
     flex-direction: column;
@@ -202,13 +202,8 @@ ul {
     justify-content: center;
 }
 
-.list_header h1 {
-    margin-bottom: 20px;
-}
-
 .list_cards {
     display: flex;
-    margin-top: 70px;
     justify-content: space-evenly;
     gap: 40px;
     flex-wrap: wrap;
@@ -217,8 +212,8 @@ ul {
 
 .card {
     border-radius: 15px;
-    align-content: center;
-    justify-content: center;
+    height: 370px;
+    
     text-align: center;
     padding: 20px;
     width: 15vw;
