@@ -194,6 +194,7 @@ ul {
 /* LIST */
 .list_section {
     color: #1E261B;
+    overflow: hidden;
     height: 60vh;
     padding: 70px;
     display: flex;
@@ -222,17 +223,22 @@ ul {
     border: 1px solid #243E16;
 }
 
+@media (max-width: 1200px) {
+    .card {
+        text-align: center;
+        align-content: center;
+        width: 30vw;
+    }
+    .list_section {
+        height: auto;
+    }
+}
+
 @media (max-width: 900px) {
     .about_section {
         height: 150vh;
         flex-direction: column;
         align-items: center;
-    }
-    .card {
-        width: 30vw;
-    }
-    .list_section {
-        height: 150vh;
     }
     .cta {
         width: 30vw;
