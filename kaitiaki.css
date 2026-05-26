@@ -194,7 +194,7 @@ ul {
 /* LIST */
 .list_section {
     color: #1E261B;
-    height: 60vh;
+    height: auto;
     padding: 70px;
     display: flex;
     flex-direction: column;
