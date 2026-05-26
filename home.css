@@ -206,7 +206,7 @@ ul {
 .list_cards {
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -214,7 +214,6 @@ ul {
 .card {
     border-radius: 15px;
     height: 370px;
-    
     text-align: center;
     padding: 20px;
     width: 15vw;
@@ -223,7 +222,7 @@ ul {
     border: 1px solid #243E16;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     .card {
         text-align: center;
         align-content: center;
