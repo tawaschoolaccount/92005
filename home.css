@@ -213,13 +213,17 @@ ul {
 
 .card {
     border-radius: 15px;
-    height: 370px;
+    height: 480px;
     text-align: center;
     padding: 20px;
     width: 15vw;
     background: #fff9;
     overflow: hidden;
     border: 1px solid #243E16;
+}
+
+.card_image img {
+    width: 12vw;
 }
 
 @media (max-width: 1100px) {
