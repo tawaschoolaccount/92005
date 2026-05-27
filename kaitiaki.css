@@ -172,10 +172,11 @@ ul {
     border-top: 3px solid #243E16;
     background: linear-gradient( 330deg, #55672e, #ffffff);
     height: 100vh;
-    padding: 70px;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 50px;
 }
 
 .text {
@@ -185,10 +186,6 @@ ul {
     background: rgba(255, 255, 255, 0.4);
     border-radius: 15px;
     border: 1px solid #243E16;
-}
-
-.about_image {
-    padding: 20px;
 }
 
 .about_image img {
