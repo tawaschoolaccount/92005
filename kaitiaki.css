@@ -170,7 +170,7 @@ ul {
 .about_section {
     overflow: hidden;
     border-top: 3px solid #243E16;
-    background: #55672c;
+    background: linear-gradient( 330deg, #55672e, #ffffff);
     height: 100vh;
     padding: 70px;
     display: flex;
@@ -202,7 +202,7 @@ ul {
     padding: 70px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient( 330deg, #55672e, #ffffff);
+    background: url("images/FooterBG.jpeg");
     justify-content: center;
 }
 
