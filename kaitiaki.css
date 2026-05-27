@@ -181,7 +181,10 @@ ul {
 .text {
     color: #1E261B;
     font-size: 17px;
-    padding: 20px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    border: 1px solid #243E16;
 }
 
 .about_image {
@@ -203,6 +206,12 @@ ul {
     display: flex;
     flex-direction: column;
     background: url("images/FooterBG.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.list_text {
+    font-size: 17px;
     justify-content: center;
 }
 
