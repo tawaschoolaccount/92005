@@ -212,14 +212,22 @@ ul {
 
 .card {
     border-radius: 15px;
-    height: 370px;
-    
-    text-align: center;
-    padding: 20px;
     width: 15vw;
-    background: #fff9;
+    height: 15vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff7;
     overflow: hidden;
     border: 1px solid #243E16;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.4s ease;
+    transform: scale(1.05);
 }
 
 @media (max-width: 900px) {
