@@ -69,6 +69,12 @@ a {
     transform: scale(1.05);
 }
 
+.nav-link.active {
+    background-color: #55672c;
+    color: black;
+    font-weight: bold;
+}
+
 /* SVG */
 
 .custom-shape-divider-top-1778619016 {
