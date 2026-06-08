@@ -275,10 +275,11 @@ a {
         display: none;
     }
     .navbar_items {
-        justify-content: space-between;
+        justify-content: center;
+        margin-top: 20px;
         width: 100vw;
     }
-    .navbar_items a {  
+    .navbar_items a { 
         display: flex;
         font-size: 13px;
         text-align: center;
@@ -288,17 +289,28 @@ a {
         height: 74.7px;
     }
 }
-@media (max-width: 585px) {
+@media (max-width: 586px) {
     .navbar {
         height: 89.7px;
     }
 }
 
-.card_image {
-    
+@media (max-width: 585px) {
+    .navbar {
+        height: 69.9px;
+    }
+    .navbar_items a { 
+        display: flex;
+        font-size: 9px;
+        text-align: center;
+        padding: 10px;
+    }
 }
-.card_text {
-    
+
+@media (max-width: 512px) {
+    .navbar {
+        height: 80.3px;
+    }
 }
 
 /* CTA */
