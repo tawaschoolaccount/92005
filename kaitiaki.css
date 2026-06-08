@@ -284,7 +284,7 @@ a {
         display: none;
     }
     .navbar_items {
-        justify-content: space-between;
+        justify-content: center;
         width: 100vw;
     }
     .navbar_items a {  
@@ -297,17 +297,23 @@ a {
         height: 74.7px;
     }
 }
+
 @media (max-width: 585px) {
     .navbar {
-        height: 89.7px;
+        height: 69.9px;
+    }
+    .navbar_items a { 
+        display: flex;
+        font-size: 9px;
+        text-align: center;
+        padding: 10px;
     }
 }
 
-.card_image {
-    
-}
-.card_text {
-    
+@media (max-width: 512px) {
+    .navbar {
+        height: 80.3px;
+    }
 }
 
 /* CTA */
