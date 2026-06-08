@@ -120,11 +120,12 @@ a {
     border-right: 3px solid #243E16;
     color: #1E261B;
     margin-left: 40px;
+    overflow: hidden;
 }
 
 .hero_overlay h1 {
     margin-bottom: 10px;
-    font-size: 48px;
+    font-size: 58px;
 }
 
 .hero_cta {
