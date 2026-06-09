@@ -115,7 +115,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: space-between;
     border-left: 3px solid #243E16;
     border-right: 3px solid #243E16;
     margin-left: 40px;
