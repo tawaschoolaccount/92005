@@ -391,3 +391,50 @@ a {
 .footer_text {
     font-size: 12px;
 }
+
+
+/* fade parts */
+.fade-section {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.fade-down {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fade-section.visible,
+.fade-left.visible,
+.fade-right.visible,
+.fade-up.visible,
+.fade-down.visible,
+.fade-in.visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
